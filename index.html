@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baking with the Gemini API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Baking with the Gemini API</h1>
+    <form id="prompt-form">
+      <div class="prompt-box">
+        <label>
+          <input id="prompt-input" name="prompt" placeholder="Enter instructions here" type="text"
+            value="Provide an example recipe for the baked goods in the image">
+        </label>
+        <button type="submit">Go</button>
+      </div>
+    </form>
+    <p class="output" id="output">(Results will appear here)</p>
+  </main>
+
+  <!-- Load Markdown-it First -->
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+  <!-- Load Main Script -->
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>

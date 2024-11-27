@@ -1,0 +1,18 @@
+{
+    "name": "baking-with-gemini-api",
+    "version": "1.0.0",
+    "description": "A simple app using the Gemini API to generate baking recipes",
+    "main": "backend.js",
+    "scripts": {
+      "start": "node backend.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    },
+    "engines": {
+      "node": "14.x"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
